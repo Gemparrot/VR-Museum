@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .show-controls {
+    padding: 10px 20px;
+  }
+  
+  #info-panel {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    height: 280px;
+  }
+  
+  #info-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  #info-content {
+    line-height: 1.5;
+  }
+
+  button{
+    margin-right: 50px;
+  }

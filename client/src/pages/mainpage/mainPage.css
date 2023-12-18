@@ -1,0 +1,11 @@
+.main-page {
+  padding-top: 80px;
+}
+
+.museum-menu {
+  transform: scale(1.01);
+}
+
+.museum-menu:hover {
+  transform: scale(1.02);
+}
